@@ -1,6 +1,6 @@
 Порядок выполнения действий:
 
-1. Клонировать репозиторий:
+1. Клонировать репозиторий: https://github.com/Yaroslav-Rakov/test5.git
 
 2. Перейти в директорию test5/myapp: cd test5/myapp
 
