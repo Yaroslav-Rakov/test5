@@ -24,6 +24,7 @@
 
 12. Проверить, что Ingress controller направляет трафик: curl hello-world.info (должны увидеть Hellow World! в терминале)
 
+Дополнительная информация со всеми необходимыми файлами .yml отдельно вынесена в gist: https://gist.github.com/Yaroslav-Rakov/159733f7e4d2c737179a80207674d5ee 
 
 
 
