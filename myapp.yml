@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test5
+spec:
+  selector:
+    matchLabels:
+      run: test5
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        run: test5
+    spec:
+      containers:
+        - name: test5
+          image: gdust/test5
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8000
+              protocol: TCP

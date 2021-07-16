@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  web:
+    build: myapp 
+    ports:
+      - "8000"
+    volumes:
+      - ./myapp:/project
+      - /project/node_modules
+      - ./nginx.conf:/etc/nginx/nginx.conf
